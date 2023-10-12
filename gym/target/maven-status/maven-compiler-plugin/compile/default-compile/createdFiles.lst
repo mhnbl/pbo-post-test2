@@ -1,0 +1,5 @@
+com\gym\Gym.class
+com\gym\entitiesmanager\Trainer.class
+com\gym\entitiesmanager\Equipment.class
+com\gym\entitiesmanager\Member.class
+com\gym\entitiesmanager\EntitiesManager.class
