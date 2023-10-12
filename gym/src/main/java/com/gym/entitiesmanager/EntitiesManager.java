@@ -18,7 +18,7 @@ public class EntitiesManager {
         Member member = new Member(memberIdCounter, name, age);
         members.add(member);
         memberIdCounter++;
-        System.out.println("Member ditambahkan: " + member);
+        
     }
 
     public void editMember(int memberId, String newName, int newAge) {
@@ -39,7 +39,7 @@ public class EntitiesManager {
     }
 
     public void displayMembers() {
-        System.out.println("=== Daftar Member ===");
+        System.out.println("\n=== Daftar Member ===");
         for (Member member : members) {
             System.out.println(member);
         }
@@ -49,7 +49,7 @@ public class EntitiesManager {
         Trainer trainer = new Trainer(trainerIdCounter, name, specialization);
         trainers.add(trainer);
         trainerIdCounter++;
-        System.out.println("Trainer ditambahkan: " + trainer);
+        
     }
 
     public void editTrainer(int trainerId, String newName, String newSpecialization) {
@@ -70,7 +70,7 @@ public class EntitiesManager {
     }
 
     public void displayTrainers() {
-        System.out.println("=== Daftar Trainer ===");
+        System.out.println("\n=== Daftar Trainer ===");
         for (Trainer trainer : trainers) {
             System.out.println(trainer);
         }
@@ -80,7 +80,7 @@ public class EntitiesManager {
         Equipment equipment = new Equipment(equipmentIdCounter, name, count);
         equipmentList.add(equipment);
         equipmentIdCounter++;
-        System.out.println("Equipment ditambahkan: " + equipment);
+        
     }
 
     public void editEquipment(int equipmentId, String newName, int newCount) {
@@ -101,7 +101,7 @@ public class EntitiesManager {
     }
 
     public void displayEquipment() {
-        System.out.println("=== Daftar Equipment ===");
+        System.out.println("\n=== Daftar Equipment ===");
         for (Equipment equipment : equipmentList) {
             System.out.println(equipment);
         }
